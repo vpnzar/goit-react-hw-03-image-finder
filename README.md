@@ -1,4 +1,4 @@
-// rafcp;
+// rafcp; // rcep
 
 React Components Note for React 17 use \_ prefix. Currently workaround for
 future options. rcc
@@ -6,6 +6,7 @@ future options. rcc
 import React, { Component } from 'react'
 
 export default class FileName extends Component { render() { return
+
 <div>$2</div> } } rce
 
 import React, { Component } from 'react'
@@ -25,6 +26,7 @@ export default $1 rpc
 import React, { PureComponent } from 'react'
 
 export default class FileName extends PureComponent { render() { return
+
 <div>$2</div> } } rpcp
 
 import React, { PureComponent } from 'react' import PropTypes from 'prop-types'
