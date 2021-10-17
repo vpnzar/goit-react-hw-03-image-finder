@@ -31,7 +31,7 @@ class ImageGalleryItem extends Component {
             }));
           } else {
             toast.error('PLEASE, INPUT CORRECT REQUEST!!!');
-            this.setState({ status: 'incorrect' });
+            this.setState({ status: 'incorrect', searchResults: [] });
           }
         })
         .catch(err => {

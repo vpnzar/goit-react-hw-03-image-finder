@@ -1,4 +1,6 @@
 import axios from 'axios';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
 
 class Pixabay {
@@ -36,7 +38,7 @@ class Pixabay {
         return data.hits;
       })
       .catch(err => {
-        console.log(err);
+        toast.error('error!!!');
       });
   }
 }
